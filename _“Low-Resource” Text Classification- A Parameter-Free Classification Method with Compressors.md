@@ -12,15 +12,9 @@ C(x) = compressed length
 - x2 = The latest tiny flying robot has been unveiled in Japan.
 - x3 = Michael Phelps won the gold medal in the 400 individual medley.
 
-Since x2 is simlar to x1, and much different to x3, C(x1+x2) - C(x1) < C(x1+x3) - c(x1)
+Since x2 is simlar to x1, and much different to x3, C(x1+x2) - C(x1) < C(x1+x3) - c(x1). The `+` operator here means concatenating texts together.
 
 We can then use a distance-based classifier (like KNN) to classify texts based on the computed distance.
-
-## Performance
-
-- This is much faster and requires less resource than using DNN approaches
-- Performs really well when there's not much labeled data: Outperformed DNN approaches in few-shot learning. As we increase the number of shots, both gzip and DNN performances become similar.
-- gzip turned out to be the most well rounded in terms of performance and accuracy
 
 ```python
 import gzip
@@ -48,4 +42,14 @@ for(x1, _) in test_set:
 sorted_idx = np.argsort(np.array(distance_from_x1))
 top_k_class = training_set[sorted_idx[:k], 1]
 predict_class = max(set(top_k_class), key=top_k_class.count)
-````
+```
+
+## Performance
+
+- This is much faster and requires less resource than using DNN approaches
+- Performs really well when there's not much labeled data: Outperformed DNN approaches in few-shot learning. As we increase the number of shots, both gzip and DNN performances become similar.
+- gzip turned out to be the most well rounded in terms of performance and accuracy
+
+## Links
+
+<https://github.com/bazingagin/npc_gzip>
