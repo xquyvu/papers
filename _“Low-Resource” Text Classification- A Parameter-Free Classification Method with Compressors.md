@@ -52,4 +52,5 @@ predict_class = max(set(top_k_class), key=top_k_class.count)
 
 ## Links
 
-<https://github.com/bazingagin/npc_gzip>
+- Repo: <https://github.com/bazingagin/npc_gzip>
+- Discussion: https://news.ycombinator.com/item?id=36707193
