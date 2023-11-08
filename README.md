@@ -6,7 +6,9 @@ Folders containing read papers have "_" at the start of their name, so they are 
 
 ## To read
 
-| Title                                                                                       | Link                                                 | Summary                                                                                                         |
-| ------------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| True to the Model or True to the Data?                                                      | <https://arxiv.org/pdf/2006.16234.pdf>               | [Link](<_True to the Model or True to the Data/README.md>)                                                       |
-| “Low-Resource” Text Classification- A Parameter-Free Classification Method with Compressors | <https://aclanthology.org/2023.findings-acl.426.pdf> | [Link](<_“Low-Resource” Text Classification- A Parameter-Free Classification Method with Compressors/README.md>) |
+| Title (brief)                                                                     | Link                                                 | Summary                                                                                                          |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| True to the Model or True to the Data?                                            | <https://arxiv.org/pdf/2006.16234.pdf>               | [Link](<_True to the Model or True to the Data/README.md>)                                                       |
+| A Parameter-Free Classification Method with Compressors                           | <https://aclanthology.org/2023.findings-acl.426.pdf> | [Link](<_“Low-Resource” Text Classification- A Parameter-Free Classification Method with Compressors/README.md>) |
+| Leveraging Ensembles of Recommenders to Compete with Budget Constrained Resources | <https://dl.acm.org/doi/pdf/10.1145/3556702.3556845> |                                                                                                                  |
+| A Diverse Models Ensemble for Fashion Session-Based Recommendation                | <https://dl.acm.org/doi/pdf/10.1145/3556702.3556821> |
