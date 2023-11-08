@@ -25,7 +25,6 @@ Example: Credit risk scoring
 
 ![Alt text](1.png)
 
-
 ### Observational method: True to the data
 
 Observe difference values of a feature, conditioning based on the other features and see how the model reacts. Use this method when we care more about the natural mechanism in the world. This is good for causal discovery as we seek to explain the data generating process.
